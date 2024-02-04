@@ -1,0 +1,24 @@
+development:
+  clients:
+    default:
+      uri: mongodb+srv://omairafzal:KxGfERNKtKSrMJOP@shopify-plugin.uwahl6o.mongodb.net/
+      options:
+        database: shopify-plugin-dev
+        server_selection_timeout: 5
+
+staging:
+  clients:
+    default:
+      uri: mongodb+srv://omairafzal:KxGfERNKtKSrMJOP@shopify-plugin.uwahl6o.mongodb.net/
+      options:
+        database: shopify-plugin-stage
+        server_selection_timeout: 5
+
+
+production:
+  clients:
+    default:
+      uri: mongodb+srv://omairafzal:KxGfERNKtKSrMJOP@shopify-plugin.uwahl6o.mongodb.net/
+      options:
+        database: shopify-plugin-production
+        server_selection_timeout: 5

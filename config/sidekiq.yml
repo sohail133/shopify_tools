@@ -1,0 +1,6 @@
+# :scheduler:
+#   :schedule:
+#     HotSellingWorker:
+#       cron: "0 */2 * * *"
+#     LeastSellingWorker:
+#       cron: "0 */2 * * *"
